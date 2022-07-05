@@ -1,0 +1,19 @@
+{
+  "name": "todo_app",
+  "version": "1.0.0",
+  "description": "todo api",
+  "main": "todo.js",
+  "scripts": {
+    "start": "nodemon todo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
